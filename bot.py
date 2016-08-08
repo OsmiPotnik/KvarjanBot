@@ -6,6 +6,17 @@ import user
 
 class TwitchBot:
     def __init__(self, nickname, password, channel, host="irc.chat.twitch.tv", port=6667):
+        """Creates an instance of a TwitchBot
+
+        Keyword arguments:
+        HOST -- the url of the a Twitch IRC API (irc.chat.twitch.tv)
+        PORT -- port of the Twitch API (non SSL 6667)
+        NICK -- username of the bot
+        PASS -- authorization token for user KVarjanBot
+        CHANNEL -- name of the channel whos chat shall be mderated (the name should be written in lower case)
+        MODT -- set to false, bot will only start once massege of the day is recieved
+
+        """
         self.HOST = host
         self.NICK = nickname
         self.PORT = port
