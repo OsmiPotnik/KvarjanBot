@@ -1,3 +1,3 @@
 # KvarjanBot
 
-A light weight chat maderating bot for Twitch.tv. Work in progress.
+A light weight chat moderating bot for Twitch.tv. Work in progress.
